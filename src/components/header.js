@@ -6,6 +6,7 @@ const Header = () => {
                 <li>Projects</li>
                 <li>About</li>
                 <li>Contact</li>
+                <li>Personal</li>
             </ul>
             <div className="intro">
                 <h1>My Name is Venkat</h1>

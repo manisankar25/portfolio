@@ -31,6 +31,12 @@ const Skills = () => {
                 </div>
                 <div className="support-skills">
                     <h2>Software Experience</h2>
+                    <div className="skillsName">
+                        <p>Cypress</p>
+                        <p>Jest</p>
+                        <p>NodeJS</p>
+                        <p>Git Hub</p>
+                    </div>
                 </div>
             </div>
         </div>

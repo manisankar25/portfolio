@@ -101,3 +101,44 @@
     background-color: #e4caee;
     width: 40%;
 }
+.contactBox {
+    display: flex;
+    width: auto;
+    margin-top: 1rem;
+    background-color: #ddd;
+    text-align: center;
+}
+.contactBox2 {
+    display: block;
+    width: 60%;
+    max-width: 56rem;
+    padding: 0;
+    margin: auto;
+}
+.header-contact {
+   margin: 4.5rem auto;
+  font-weight: 500;
+  letter-spacing: .18rem;
+  align-items: center;
+}
+.header-text {
+    margin: 3rem auto 0 auto;
+    font-size: 1.5rem;
+}
+.forntend-skills {
+    padding: 20px;
+}
+.skillsName{
+    display: flex;
+    background-color: #ddd;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillsName p {
+    padding: 10px;
+}
+.projectContainer {
+    border: 1px solid;
+    margin: 10px;
+}
