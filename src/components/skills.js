@@ -6,7 +6,7 @@ const Skills = () => {
             <div className="header">About <span className="marker">Venkat Kantipudi</span></div>
             <div className="bar"></div>
             <div id="about-text">
-                <p>ttttttttttttttttttttttttttttttttttttttttttt</p>
+                <p className='header'>Experience in developing web applications by using JavaScript Frameworks ( ReactJS and Angular)</p>
             </div>
             <div className="about-skills">
                 <div className="forntend-skills">
