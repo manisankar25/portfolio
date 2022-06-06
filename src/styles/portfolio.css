@@ -4,7 +4,7 @@
     list-style: none;
 }
 
-.NavBar{
+.NavBar {
     width: 100%;
     z-index: 5;
     display: flex;
@@ -13,7 +13,7 @@
     color: #fcfcff;
     font-size: 1.5rem;
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
 }
 
@@ -21,6 +21,7 @@
     margin: .75rem;
     padding: .25rem;
 }
+
 .intro {
     background-color: #252933;
     color: #fcfcff;
@@ -31,11 +32,13 @@
     align-items: center;
     flex-direction: column;
 }
+
 .projectionSection {
     display: flex;
     flex-wrap: wrap;
 }
-.projectionSection div{
+
+.projectionSection div {
     background-color: pink;
     margin: 10vh;
     height: 50vh;
@@ -44,39 +47,49 @@
     justify-content: center;
     align-items: center;
 }
+
 .header {
     text-align: center;
     font-size: 2rem;
 }
+
 .marker {
     color: #be3144;
 }
+
 .bar {
     height: 2px;
     background-color: #252933;
     width: 7.5rem;
     margin: 1.1rem auto 0 auto;
 }
+
 #about-text {
     max-width: 56rem;
     margin: 3rem auto 1rem auto;
 }
+
 .about-skills {
     display: flex;
 }
-.frontend-skills{
+
+.frontend-skills {
     margin: auto
 }
-.frontend-skills p{
+
+.frontend-skills p {
     text-align: center;
 }
+
 .support-skills {
     margin: auto;
 }
-.commonskill{
+
+.commonskill {
     background-color: #ddd;
     width: 40rem;
 }
+
 .skills {
     text-align: right;
     font-size: 1.5 rem;
@@ -85,22 +98,27 @@
     border-right: 3rem;
     font-weight: 100;
 }
+
 .htmling {
     background-color: #be3144;
     width: 75%;
 }
+
 .CSS {
     background-color: #3157be;
     width: 75%;
 }
+
 .JS {
     background-color: #44be31;
     width: 60%;
 }
+
 .REACT {
     background-color: #e4caee;
     width: 40%;
 }
+
 .contactBox {
     display: flex;
     width: auto;
@@ -108,6 +126,7 @@
     background-color: #ddd;
     text-align: center;
 }
+
 .contactBox2 {
     display: block;
     width: 60%;
@@ -115,29 +134,65 @@
     padding: 0;
     margin: auto;
 }
+
 .header-contact {
-   margin: 4.5rem auto;
-  font-weight: 500;
-  letter-spacing: .18rem;
-  align-items: center;
+    margin: 4.5rem auto;
+    font-weight: 500;
+    letter-spacing: .18rem;
+    align-items: center;
+    font-size: 3rem;
+    color: #252933;
 }
+
+.bar {
+    height: 2px;
+    width: 7.5rem;
+    display: flex;
+    margin: -3.5rem auto 0 auto;
+    background-color: #252933;
+}
+
+
+
+#social-media {
+    display: flex;
+    margin: auto;
+}
+
+.contact-button {
+    display: block;
+    margin: auto;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: #be3144;
+}
+
+.contact-button:hover {
+    color: orange;
+    opacity: 80%;
+}
+
 .header-text {
     margin: 3rem auto 0 auto;
     font-size: 1.5rem;
 }
+
 .forntend-skills {
     padding: 20px;
 }
-.skillsName{
+
+.skillsName {
     display: flex;
     background-color: #ddd;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .skillsName p {
     padding: 10px;
 }
+
 .projectContainer {
     border: 1px solid;
     margin: 10px;
@@ -149,9 +204,9 @@
     justify-content: center;
 }
 
-.projectsSection > div {
+.projectsSection>div {
 
     width: 513px;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 
 }
