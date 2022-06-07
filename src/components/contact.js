@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { AiFillControl } from 'react-icons/fa';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { forwardRef } from "react";
 
 
-const Contact = () => {
+
+const Contact = forwardRef((props, ref) => {
     return (
-        <div className="contactBox">
+        <div ref={ref} className="contactBox">
             <div className="contactBox2">
                 <div>
                     <div className="header-contact">Contact</div>
@@ -22,5 +24,5 @@ const Contact = () => {
             </div>
         </div>
     )
-}
+})
 export default Contact;

@@ -1,9 +1,11 @@
 import '../styles/portfolio.css';
 import React from 'react';
+import { forwardRef } from "react";
 
-const Project = () => {
+
+const Project =  forwardRef((props, ref) => {
     return (
-        <React.Fragment>
+        <div ref={ref}>
             <h2 className='header'>Projects</h2>
             <div className="projectsSection">
                 <div className='projectContainer'>
@@ -46,7 +48,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     )
-}
+})
 export default Project;
