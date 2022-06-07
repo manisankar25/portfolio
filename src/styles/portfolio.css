@@ -129,18 +129,17 @@
 
 .contactBox2 {
     display: block;
-    width: 60%;
     max-width: 56rem;
     padding: 0;
     margin: auto;
 }
 
 .header-contact {
-    margin: 4.5rem auto;
-    font-weight: 500;
+    margin: 1.5rem auto;
+    font-weight: 400;
     letter-spacing: .18rem;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #252933;
 }
 
@@ -148,7 +147,7 @@
     height: 2px;
     width: 7.5rem;
     display: flex;
-    margin: -3.5rem auto 0 auto;
+    margin: 0 auto 0 auto;
     background-color: #252933;
 }
 
@@ -164,7 +163,6 @@
     margin: auto;
     padding: 4rem 1rem;
     text-align: center;
-    color: #be3144;
 }
 
 .contact-button:hover {
@@ -173,7 +171,7 @@
 }
 
 .header-text {
-    margin: 3rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     font-size: 1.5rem;
 }
 
@@ -208,5 +206,8 @@
 
     width: 513px;
     background-color: antiquewhite;
+}
 
+svg {
+    font-size:3rem;
 }
