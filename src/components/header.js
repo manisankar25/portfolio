@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/portfolio.css';
-const Header = ({ resultRef, projectRef, skillref}) => {
+const Header = ({ resultRef, projectRef, skillref }) => {
     const projects = useRef();
     const about = useRef();
     const content = useRef();
@@ -14,10 +14,6 @@ const Header = ({ resultRef, projectRef, skillref}) => {
     const contactHandle = () => {
         resultRef.current.scrollIntoView({ behavior: "smooth" });
     }
-    const personalHandle = () => {
-        Personal.current.scrollIntoView({ behavior: "smooth" });
-    }
-
 
     return (
         <div>
@@ -25,11 +21,10 @@ const Header = ({ resultRef, projectRef, skillref}) => {
                 <li onClick={projectHandle}>Projects</li>
                 <li onClick={aboutHandle}>About</li>
                 <li onClick={contactHandle}>Contact</li>
-                <li onClick={personalHandle}>Personal</li>
             </ul>
             <div className="intro">
-                <h1>My Name is Venkat</h1>
-                <h2>JavaScript Developer</h2>
+                <h1>Hello, I'm <span>Mani Sankar</span></h1>
+                <h1>I'm a Front-End web developer</h1>
             </div>
         </div>
     )
