@@ -7,12 +7,14 @@ import { useRef } from "react";
 const Root = () => {
     const resultRef = useRef(null);
     const projectRef = useRef(null);
+    const skillref = useRef(null);
+
 
     return(
         <div>
-            <Header resultRef={resultRef} projectRef={projectRef} ></Header>
+            <Header resultRef={resultRef} projectRef={projectRef} skillref={skillref} ></Header>
             <Project ref={projectRef}></Project>
-            <Skills></Skills>
+            <Skills ref={skillref}></Skills>
             <Contact ref={resultRef}></Contact>
         </div>
     )

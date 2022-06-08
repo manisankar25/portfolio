@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/portfolio.css';
-const Header = ({ resultRef, projectRef }) => {
+const Header = ({ resultRef, projectRef, skillref}) => {
     const projects = useRef();
     const about = useRef();
     const content = useRef();
@@ -9,7 +9,7 @@ const Header = ({ resultRef, projectRef }) => {
         projectRef.current.scrollIntoView({ behavior: "smooth" });
     }
     const aboutHandle = () => {
-        about.current.scrollIntoView({ behavior: "smooth" });
+        skillref.current.scrollIntoView({ behavior: "smooth" });
     }
     const contactHandle = () => {
         resultRef.current.scrollIntoView({ behavior: "smooth" });

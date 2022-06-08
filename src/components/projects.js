@@ -5,7 +5,7 @@ import { forwardRef } from "react";
 
 const Project =  forwardRef((props, ref) => {
     return (
-        <div ref={ref}>
+        <div ref={ref} className="projectMain">
             <h2 className='header'>Projects</h2>
             <div className="projectsSection">
                 <div className='projectContainer'>
@@ -29,7 +29,7 @@ const Project =  forwardRef((props, ref) => {
                     </div>
                 </div>
                 <div className='projectContainer'>
-                    <h2>National Grid</h2>
+                    <h2>Amercan Express</h2>
                     <div>
                         <p>*I got the opportunity to develop web application by reading JSON data from Liferay in Angular 5 framework and we use bootstrap for styling.</p>
                         <p>*Created multiple Form components and reusable Component.</p>

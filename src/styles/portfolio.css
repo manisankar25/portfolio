@@ -20,6 +20,12 @@
 .NavBar li {
     margin: .75rem;
     padding: .25rem;
+    cursor: pointer;
+}
+.NavBar li:hover {
+    opacity: 75%;
+    border-style: solid;
+    border-color: #be3144;
 }
 
 .intro {
@@ -106,17 +112,17 @@
 
 .CSS {
     background-color: #3157be;
-    width: 75%;
+    width: 70%;
 }
 
 .JS {
     background-color: #44be31;
-    width: 60%;
+    width: 90%;
 }
 
 .REACT {
     background-color: #e4caee;
-    width: 40%;
+    width: 80%;
 }
 
 .contactBox {
@@ -196,17 +202,27 @@
     margin: 10px;
 }
 
+.projectMain {
+    margin-top: 2rem;
+}
+
 .projectsSection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .projectsSection>div {
 
     width: 513px;
-    background-color: antiquewhite;
+    background-color: #979fb429;
 }
+
+.skillsContainer {
+    margin-top: 2rem;
+}
+
 
 svg {
     font-size:3rem;

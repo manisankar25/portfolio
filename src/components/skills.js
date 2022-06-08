@@ -1,8 +1,10 @@
 import '../styles/portfolio.css';
+import { forwardRef } from "react";
 
-const Skills = () => {
+
+const Skills = forwardRef((props, ref) => {
     return (
-        <div>
+        <div  ref={ref} class="skillsContainer" >
             <div className="header">About <span className="marker">Venkat Kantipudi</span></div>
             <div className="bar"></div>
             <div id="about-text">
@@ -17,15 +19,15 @@ const Skills = () => {
                         </div></div>
                     <p>CSS</p>
                     <div className="commonskill">
-                        <div className="skills CSS">75%
+                        <div className="skills CSS">70%
                         </div></div>
                     <p>Java Script</p>
                     <div className="commonskill">
-                        <div className="skills JS">60%
+                        <div className="skills JS">90%
                         </div></div>
                     <p>React</p>
                     <div className="commonskill">
-                        <div className="skills REACT">40%
+                        <div className="skills REACT">80%
                         </div>
                     </div>
                 </div>
@@ -41,5 +43,5 @@ const Skills = () => {
             </div>
         </div>
     )
-}
+})
 export default Skills;
